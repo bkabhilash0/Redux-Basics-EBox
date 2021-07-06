@@ -1,0 +1,28 @@
+.header {
+  background-color: orangered;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+
+.header ul {
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-left: auto;
+}
+
+.header ul > li {
+  margin-right: 2.5rem;
+}
+
+.header ul > li > a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}   
+
+.active{
+  color: gold !important;
+}
